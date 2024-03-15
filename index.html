@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <form id="myForm">
+      <table>
+        <tr>
+          <th colspan="2">Form Input</th>
+        </tr>
+        <tr>
+          <td><label for="nama">Nama</label></td>
+          <td>
+            <input
+              type="text"
+              name="nama"
+              id="nama"
+              placeholder="Masukkan Nama Anda"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pekerjaan">Pekerjaan</label></td>
+          <td>
+            <input
+              type="text"
+              name="pekerjaan"
+              id="pekerjaan"
+              placeholder="Masukkan Pekerjaan Anda"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="hobi">Hobi</label></td>
+          <td>
+            <input
+              type="text"
+              name="hobi"
+              id="hobi"
+              placeholder="Masukkan Hobi Anda"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
